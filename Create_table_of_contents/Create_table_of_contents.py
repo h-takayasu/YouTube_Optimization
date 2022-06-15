@@ -139,6 +139,7 @@ def main():
     result_list = fix_time(unique_list)
     # プロンプトに出力する
     print('\r\n===============================================')
+    print('0:00 はじめに')
     for rl in range(len(result_list)):
         print(result_list[rl][0] + " " + result_list[rl][1])
     print('\r\n===============================================')
